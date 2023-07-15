@@ -1,0 +1,19 @@
+{
+  "name": "anti-leak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoGH0001/anti-leak.git"
+  },
+  "author": "enzonpm",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/EnzoGH0001/anti-leak/issues"
+  },
+  "homepage": "https://github.com/EnzoGH0001/anti-leak#readme"
+}
