@@ -49,6 +49,6 @@ if (isLeak) {
 This project is licensed under the Apache License 2.0.
 
 
-Assurez-vous de mettre à jour le badge de la licence et le lien de la licence avec les informations appropriées. 
+Be sure to update the license badge and license link with the correct information.
 
-Si vous avez d'autres questions, n'hésitez pas à demander !
+If you have any other questions, don't hesitate to ask!
