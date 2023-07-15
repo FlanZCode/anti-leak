@@ -18,7 +18,6 @@ Require the `anti-leak` module in your Node.js project:
 ```javascript
 const antiLeak = require('anti-leak');
 ```
-The antiLeak object contains the following regular expressions as properties:
 
 antiLeak.ipv4: Regular expression for validating IPv4 addresses.
 
@@ -31,6 +30,26 @@ antiLeak.token: Regular expression for validating tokens.
 antiLeak.EUPhone: Regular expression for validating European phone numbers.
 
 antiLeak.NAPhone: Regular expression for validating North American phone numbers.
+
+antiLeak.Visa: Regular expression for validating Visa credit card numbers.
+
+antiLeak.Mastercard: Regular expression for validating Mastercard credit card numbers.
+
+antiLeak.Maestro: Regular expression for validating Maestro card numbers.
+
+antiLeak.AmericanExpress: Regular expression for validating American Express credit card numbers.
+
+antiLeak.Discover: Regular expression for validating Discover credit card numbers.
+
+antiLeak.DinersClub: Regular expression for validating Diners Club credit card numbers.
+
+antiLeak.JCB: Regular expression for validating JCB credit card numbers.
+
+antiLeak.SSN: Regular expression for validating Social Security Numbers (SSN).
+
+antiLeak.passport: Regular expression for validating passport numbers.
+
+antiLeak.CVC: Regular expression for validating Card Verification Codes (CVC).
 
 To check if a content contains sensitive information, you can use the regular expression's .test method. Here's an example:
 
