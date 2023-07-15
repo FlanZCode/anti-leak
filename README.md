@@ -51,6 +51,8 @@ antiLeak.passport: Regular expression for validating passport numbers.
 
 antiLeak.CVC: Regular expression for validating Card Verification Codes (CVC).
 
+antiLeak.(country)License: Regular expression for validating Driver's license number.
+
 To check if a content contains sensitive information, you can use the regular expression's .test method. Here's an example:
 
 ```javascript
